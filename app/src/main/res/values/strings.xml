@@ -1,0 +1,168 @@
+<resources>
+    <string name="app_name">Orders</string>
+    <string name="login">Войти</string>
+    <string name="edittext_phone">Номер телефона</string>
+    <string name="edittext_password">Пароль</string>
+    <string name="edittext_password_confirm">Введите пароль ещё раз</string>
+    <string name="no_acc">У меня нет аккаунта</string>
+    <string name="remember_me">Запомнить меня</string>
+    <string name="next">Далее</string>
+    <string name="edittext_name">Имя</string>
+    <string name="edittext_surname">Фамилия</string>
+    <string name="edittext_middlename">Отчество (если есть)</string>
+    <string name="choose_photo">Вы можете выбрать фотографию сейчас или сделать это позже в личном кабинете</string>
+    <string name="connecion_failed">Невозможно подключиться к серверу</string>
+    <string name="passwords_are_not_equal">Пароли не совпадают</string>
+    <string name="phone_incorrect">Введите корректный номер телефона</string>
+    <string name="pole_incorrect">Это поле не может быть пустым</string>
+    <string name="password_incorrect">Длина пароля должна быть больше шести символов</string>
+    <string name="user_exists">Пользователь с таким номером телефона уже существует</string>
+    <string name="server_error">Произошла ошибка на сервере, попробуйте ещё раз</string>
+    <string name="app_error">Произошла ошибка на стороне клиента</string>
+    <string name="crop_image_error">Не получилось загрузить изображение</string>
+    <string name="file_not_found">Не удалось загрузить изображение</string>
+    <string name="rooms">Комнаты</string>
+    <string name="profile">Профиль</string>
+    <string name="create_room">Создать комнату</string>
+    <string name="enter_room">Войти в существующую комнату</string>
+    <string name="phone">Телефон: </string>
+    <string name="change_photo">Сменить фото</string>
+    <string name="change_info">Изменить информацию</string>
+    <string name="key_timeout">Вы бездействовали слишком долго, войдите в аккаунт</string>
+    <string name="auth_unsuccessful">Не удалось авторизировать пользователя</string>
+    <string name="user_not_found">Мы не нашли такого пользователя</string>
+    <string name="role">Роль:</string>
+    <string name="role_admin">Админ</string>
+    <string name="role_member">Участник</string>
+    <string name="exit">Выйти</string>
+    <string name="edittext_roomname">Имя комнаты</string>
+    <string name="edittext_roompassword">Пароль *</string>
+    <string name="roomname_additionalinfo">* Оставьте поле пустым, если хотите создать открытую комнату</string>
+    <string name="roomname_additionalinfo_edit">* Оставьте поле пустым, если хотите оставить комнату открытой</string>
+    <string name="roomname_additionalinfo_join">* Оставьте поле пустым, если хотите вступить в открытую комнату</string>
+    <string name="cancel">Отмена</string>
+    <string name="roomname_additionalinfo_id">* Вы можете спросить id у администратора или у участника комнаты</string>
+    <string name="edittext_roomname_log">ID комнаты *</string>
+    <string name="edittext_roomname_log_join">ID комнаты</string>
+    <string name="or">или…</string>
+    <string name="scan_qr_code">Сканруйте QR-код</string>
+    <string name="enter">Войти</string>
+    <string name="roomname_empty">Название комнаты не может быть пустым</string>
+    <string name="room_fail_connection">Не удалось создать комнату - проверьте интернет поключение</string>
+    <string name="id">ID:</string>
+    <string name="generate_qr">Создать QR-код</string>
+    <string name="edit_room">Редактировать комнату</string>
+    <string name="delete_room">Удалить комнату</string>
+    <string name="members">Участники: </string>
+    <string name="scan_qr_message">Просканируйте QR код через \"Войти в существующую комнату\" в меню комнат, чтобы войти в комнату</string>
+    <string name="scan_error">В QR-коде не обнаружено информации для комнаты</string>
+    <string name="room_already_logged">Вы уже состоите в этой комнате!</string>
+    <string name="room_id_invalid">Введите корректное значение для ID комнаты</string>
+    <string name="room_doesnt_exist">Такой комнаты не существует!</string>
+    <string name="exit_room">Выйти из комнаты</string>
+    <string name="are_you_sure">Вы уверены?</string>
+    <string name="delete_room_desc">Данные нельзя будет восстановить</string>
+    <string name="failed_to_remove_room">Не удалось удалить комнату</string>
+    <string name="failed_to_edit_room">Не удалось изменить информацию комнаты</string>
+    <string name="remove">Удалить</string>
+    <string name="edit_room_text">Изменить</string>
+    <string name="exit_room_desc" >Вы не будете получать уведомление, а также не сможете получить доступ к комнате</string>
+    <string name="edittext_room_maxmembers">Максимальное кол-во участников</string>
+    <string name="not_a_number">Введите число</string>
+    <string name="number_is_too_small">Введите число, большее одного</string>
+    <string name="rooms_query">Поиск в комнатах</string>
+    <string name="set_room_info">Создать комнату</string>
+    <string name="set_min_date">Выбрать дату начала</string>
+    <string name="set_end_date">Выберите дату окончания</string>
+    <string name="add_comment_big">Добавьте комментарий…</string>
+    <string name="pick_start_first">Сначала выберите время начала</string>
+    <string name="time_is_too_small">Введите число, большее чем начальное</string>
+    <string name="start_time_is_too_big">Начальное время должно быть мееньше, чем окончательное время</string>
+    <string name="status">Статус: </string>
+    <string name="max_members">Максимальное количество участников: </string>
+    <string name="execute_time">Время выполнения: </string>
+    <string name="room_already_set_up">Комната уже настроена</string>
+    <string name="queue">Очередь</string>
+    <string name="wait_since">Ожидает с </string>
+    <string name="status_queue_wait">Ожидает</string>
+    <string name="status_queue_not_wait">Не в очереди</string>
+    <string name="queue_updates">Новые комнаты</string>
+    <string name="queue_updates_desc">Вы будете получать уведомления о новых комнатах, если встанете в очередь в приложении</string>
+    <string name="queue_notify_title">Доступна новая работа</string>
+    <string name="queue_text_main">Доступна новая комната - \"%s\"</string>
+    <string name="enter_quit_queue">Выйти/войти в очередь</string>
+    <string name="creator_name">Создатель: </string>
+    <string name="you">Вы</string>
+    <string name="foreground_notify_title">Поиск обновлений</string>
+    <string name="foreground_notify_desc">Ищет обновления, работает в фоне</string>
+    <string name="full_budget">Полный бюджет</string>
+    <string name="budget_per_hour">Оплата за час пользователя</string>
+    <string name="budget_full_room_per_user">Оплата за комнату одного пользователя</string>
+    <string name="ruble">₽</string>
+    <string name="pay_type_desc">Способ оплаты:</string>
+    <string name="full_info_room">О комнате</string>
+    <string name="users_list">Пользователи</string>
+    <string name="name">Название: </string>
+    <string name="pay_type">Тип оплаты: </string>
+    <string name="pay_val">Оплата: </string>
+    <string name="role_nobody">Не участвует</string>
+    <string name="room_status_wait">Ожидаем участников</string>
+    <string name="room_status_executing">Выполняется</string>
+    <string name="room_status_executed">Выполнено</string>
+    <string name="room_status_not_set_up">Комната не установлена</string>
+    <string name="enter_quit_room">Вступить/выйти из комнаты</string>
+    <string name="comment_prefix">Комментарий: </string>
+    <string name="user_add">Новые пользователи</string>
+    <string name="user_add_desc">Вы будете получать уедомления о пользователях, которые вступили в комнату, в которой находитесь Вы</string>
+    <string name="user_exit">Пользователи вышедшие из комнаты</string>
+    <string name="user_exit_desc">Вы будете получать уведомления, если пользователь вышел из комнаты, в которой Вы состоите</string>
+    <string name="room_delete">Удаление комнаты</string>
+    <string name="room_delete_desc">Вы будете получать уведомление, если комната, в которой Вы состоите, удаляется</string>
+    <string name="room_status_change">Изменение состояния комнаты</string>
+    <string name="room_status_change_desc">Вы будете получать уведомление, если комната, в которой Вы состоите, начала или закончила работу</string>
+    <string name="user_add_main">В комнату \"%s\" вступил новый пользователь \"%s\"</string>
+    <string name="user_exit_main">Из комнаты \"%s\" вышел пользователь \"%s\"</string>
+    <string name="room_delete_main">Комната \"%s\" удалена</string>
+    <string name="status_main_wait">Комната \"%s\" ожидает участников</string>
+    <string name="status_main_executing">Комната \"%s\" начала свою работу</string>
+    <string name="status_main_executed">Комната \"%s\" выполнена</string>
+    <string name="memberss">Участники</string>
+    <string name="not_found_requiered_apps">Не найдено подходящего приложения</string>
+    <string name="transactions_history">История транзакция</string>
+    <string name="on_wallet">На счету:</string>
+    <string name="date">Дата: </string>
+    <string name="per_hour_trans">Получена почасовая оплата за выполнение комнаты \"%s\"</string>
+    <string name="full_payment_trans">Получена оплата за всю комнату \"%s\"</string>
+    <string name="admin_payout">Произведена выплата администратором, обратитеь к нему, если Вам не пришли средства</string>
+    <string name="reverse">В обратном порядке</string>
+    <string name="users">Пользователи: </string>
+    <string name="admin">Админ</string>
+    <string name="member">Участник</string>
+    <string name="not_member">Не участник</string>
+    <string name="cancel_room">Отклонить</string>
+    <string name="accept_room">Принять</string>
+    <string name="active_users">Активные пользователи</string>
+    <string name="you_are_not_admin">Вы не администратор</string>
+    <string name="last_action">Последнее действие: </string>
+
+    <string-array name="status_keys">
+        <item>NOT_SET_UP</item>
+        <item>WAIT</item>
+        <item>EXECUTING</item>
+        <item>EXECUTED</item>
+    </string-array>
+    <string-array name="status_values">
+        <item>Ещё не готова…</item>
+        <item>Ждём участников</item>
+        <item>Выполняется</item>
+        <item>Выполнен</item>
+    </string-array>
+    <string-array name="spinner_pay_types">
+        <item>Почасовая оплата</item>
+        <item>Оплата за всю комнату</item>
+    </string-array>
+    <string-array name="suffix_pay_types">
+        <item>%s₽/час (%s₽ за всю комнату)</item>
+        <item>%s₽ (%s₽ каждому из %d уч.)</item>
+    </string-array>
+</resources>

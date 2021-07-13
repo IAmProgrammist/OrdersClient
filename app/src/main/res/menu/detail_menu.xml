@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/create_qr"
+        android:title="@string/generate_qr" />
+    <item
+        android:id="@+id/edit_room"
+        android:title="@string/edit_room" />
+    <item
+        android:id="@+id/delete_room"
+        android:title="@string/delete_room" />
+</menu>

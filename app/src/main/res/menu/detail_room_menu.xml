@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/full_info_room" android:icon="@drawable/ic_info" android:id="@+id/full_info_room"/>
+    <item android:title="@string/users_list" android:icon="@drawable/ic_group" android:id="@+id/all_users"/>
+    <item android:title="@string/profile" android:icon="@drawable/ic_avatar_empty" android:id="@+id/menu_acc"/>
+</menu>

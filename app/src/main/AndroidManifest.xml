@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ru.pvapersonal.orders">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-sdk tools:overrideLibrary="com.google.zxing.client.android" />
+
+    <application
+        android:hardwareAccelerated="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:name=".other.App"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Orders"
+        android:usesCleartextTraffic="true">
+
+        <service android:name=".service.ServerUpdateListener"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+        <service android:name=".service.LookForUpdatesSingle"
+            android:enabled="true"
+            android:exported="true"/>
+        <receiver android:name=".service.MainBroadcastReceiver"
+            android:process=":remote"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="ru.pvapersonal.orders.action.action_alarm"/>
+                <action android:name="ru.pvapersonal.orders.action.restart_service"/>
+                <action android:name="ru.pvapersonal.orders.action.alarm_manager_search_for_updates"/>
+                <action android:name="ru.pvapersonal.orders.action.boot_receiver"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                    <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+        <activity android:name=".activities.SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.LoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.RoomsActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.RegistrationActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.QRCodeActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.ChangeUserInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.TestActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.SetupRoomActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.UserInfoActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.DetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.TransactionHistoryActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activities.ActiveUsersActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
